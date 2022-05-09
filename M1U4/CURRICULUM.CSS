@@ -1,0 +1,33 @@
+h3{
+    background-color: brown;
+        color: black;
+}
+
+.img {float: right;}
+
+.Resumen{
+    font-size: 20px;
+    width: 900px;
+    height: 220px;
+    text-align: center;
+
+}
+
+#caja{
+    width: 900px;
+    background-color: goldenrod;
+    text-align: center;
+    border: solid brown;
+}
+
+#caja:hover{
+    background-color: brown;
+}
+.fondo{
+    width: 900px;
+    border: solid goldenrod;
+}
+
+li{
+    font-size: 18px;
+}

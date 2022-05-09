@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var mts;
+
+        mts = prompt('Ingrese los metros a recorrer en su viaje:', '');
+
+        if (mts < 1000) {
+            document.write('Puede llegar a su destino a pie');
+        } else if (mts < 10000) {
+            document.write('Puede llegar a su destino en bicicleta.');
+        } else if (mts < 30000) {
+            document.write('Puede llegar a su destino en colectivo');
+        } else if (mts < 100000) {
+            document.write('Puede llegar a su destino en auto');
+        } else {
+            document.write('Puede llegar a su destino en avion');
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>El Mayor de un array</title>
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var numeros = [30, 7, 95, 78, 25];
+        mayor = 0;
+
+        for (var i = 0, len = numeros.length; i < len; i++) {
+            if (mayor < numeros[i]) {
+                mayor = numeros[i];
+            }
+        }
+        document.write(mayor);
+    </script>
+
+</body>
+
+
+</html>

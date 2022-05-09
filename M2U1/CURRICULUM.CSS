@@ -1,0 +1,53 @@
+H1{
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+}
+
+h3{
+    background-color: brown;
+        color: black;
+        font-family: 'Handlee', cursive;
+}
+
+.img {
+    float: left;
+border-radius: 50px;
+}
+
+.Resumen{
+    font-size: 20px;
+    width: 900px;
+    height: 175px;
+    text-align: justify;
+
+
+}
+
+#caja{
+    width: 905px;
+    background-color: goldenrod;
+    text-align: center;
+    border: solid brown;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#caja:hover{
+    background-color: brown;
+}
+
+li{
+    font-size: 18px;
+}
+
+.gradient{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+background: rgb(254,252,234); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+width: 905px;
+border: solid goldenrod;
+border-radius: 50px 50px 0px 0px;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight:bold;
+    color: #3f3f3f;
+}
+
+#menu form > buttom {
+    font-size: 18px;
+    font-weight:bold;
+}
+
+
+.carousel-inner{
+    max-height: 30rem ;
+}
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width:90% !important;
+    }
+
+    #equipo p {
+        display:none;
+    }
+
+    .servicio-fila {
+        width:100% !important;
+        text-align: center;
+    }
+    }
+
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+

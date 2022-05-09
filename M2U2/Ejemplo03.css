@@ -1,0 +1,36 @@
+.contenedor{
+	background-color: rgb(227, 227, 236);
+	border: solid black;
+	display: flex;
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+	justify-content: center;
+	justify-content: space-between;
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+}
+
+.item{
+	background-color: #ccc;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:first-child{
+	background-color: red;
+
+}
+
+.item:nth-child(2){
+	background-color: blue;
+}
+
+.item:last-child{
+	background-color: green;
+}
