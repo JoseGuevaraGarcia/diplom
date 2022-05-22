@@ -1,0 +1,49 @@
+.historia p{
+    font-size: 0.8em;
+}
+
+.tipos{
+    overflow: hidden;
+}
+
+.tipo{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+
+.tipo{
+    text-align: center;
+}
+
+.tipo img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+
+.tipo h5,
+.tipo h6{
+    text-align:  center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin: 0;
+}
+
+tipo h5{
+    font-size: 0.9em;
+}
+
+tipo p {
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.tipo:first-child{
+    margin-left: 0;
+}

@@ -1,0 +1,7 @@
+http://localhost/phpmyadmin
+Usuario: root
+
+
+http://localhost:3000/admin/login
+Usuario: jose
+Contraseña 1234
